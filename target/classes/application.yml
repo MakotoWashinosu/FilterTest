@@ -1,0 +1,8 @@
+forward:
+  paths:
+    - /external/syscheck
+    - /rp-vcas/syscheck
+    - /rp-auth/syscheck
+  forward-path: /syscheck
+server:
+  port: 8080

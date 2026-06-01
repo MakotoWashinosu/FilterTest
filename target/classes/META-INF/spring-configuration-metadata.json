@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "forward",
+      "type": "com.example.filtertest.config.SysCheckProperties",
+      "sourceType": "com.example.filtertest.config.SysCheckProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "forward.forward-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.filtertest.config.SysCheckProperties"
+    },
+    {
+      "name": "forward.paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.filtertest.config.SysCheckProperties"
+    }
+  ],
+  "hints": []
+}
