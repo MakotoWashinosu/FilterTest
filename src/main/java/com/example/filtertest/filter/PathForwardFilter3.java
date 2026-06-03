@@ -11,7 +11,7 @@ import com.example.filtertest.config.SysCheckProperties;
 import java.io.IOException;
 
 //ここでComponentをコメントアウトすると、PathForwardFilter3はSpringのコンテキストに登録されなくなります。
-@Component
+//@Component
 public class PathForwardFilter3 extends OncePerRequestFilter {
 
 /*

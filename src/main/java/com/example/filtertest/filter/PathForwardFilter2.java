@@ -40,6 +40,7 @@ mvn clean spring-boot:run
         System.out.println("[PathForwardFilter2] forward before: would forward " + requestUri + " to " + forwardPath);
         request.getRequestDispatcher(forwardPath).forward(request, response);
         System.out.println("[PathForwardFilter2] forward after: would have forwarded " + requestUri + " to " + forwardPath);
+        return;
 
     }
 }
