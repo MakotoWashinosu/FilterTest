@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 //ここでComponentをコメントアウトすると、PathForwardFilter1はSpringのコンテキストに登録されなくなります。
-//@Component
+@Component
 public class PathForwardFilter1 extends OncePerRequestFilter {
 
     private final SysCheckProperties properties;

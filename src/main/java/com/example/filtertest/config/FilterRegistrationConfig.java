@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class FilterRegistrationConfig {
 
     // ここで＠Beanをコメントアウトすると、PathForwardFilter2はFilterRegistrationBeanで登録されなくなります。
-    @Bean
+    //@Bean
     public FilterRegistrationBean<PathForwardFilter2> pathForwardFilter2Registration(SysCheckProperties properties) {
         PathForwardFilter2 filter = new PathForwardFilter2(properties);
         FilterRegistrationBean<PathForwardFilter2> registration = new FilterRegistrationBean<>(filter);
